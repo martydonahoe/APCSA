@@ -3,15 +3,17 @@ package Chapter02;
 import java.util.Scanner;
 
 /**
- * program to calculate the total price of a meal inlcuding tip
+ * program to calculate the total price of a meal including tip
  *
  * @author Marty Donahoe
  */
 public class P2 {
-/**
- * Main Method 
- * @param args command line arguments
- */
+
+    /**
+     * Main Method
+     *
+     * @param args command line arguments
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the price of the meal: $");
